@@ -80,7 +80,7 @@ initial_extensions = (
 
 )
 
-class MissyBot(commands.Bot):
+class ExampleBot(commands.Bot):
     def __init__(self):
         super().__init__(
             command_prefix="!",
@@ -153,4 +153,4 @@ class MissyBot(commands.Bot):
         except Exception as e:
             print(e)
 
-MissyBot().run()
+ExampleBot().run()
